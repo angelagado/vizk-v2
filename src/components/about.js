@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 import img2 from "../assets/images/about2.jpeg";
+import AppLayout from "./home";
 
 function AppAbout() {
   return (
@@ -72,15 +73,6 @@ function AppAbout() {
               consectetur reiciendis laborum, laudantium perspiciatis quos
               molestias quam eum.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-              alias ex error distinctio laudantium recusandae, iure. Vel nisi
-              soluta, minus consectetur reiciendis laborum, laudantium
-              perspiciatis quos molestias quam eum. Vitae alias ex error
-              distinctio laudantium recusandae, iure. Vel nisi soluta, minus
-              consectetur reiciendis laborum, laudantium perspiciatis quos
-              molestias quam eum.
-            </p>
           </Col>
         </Row>
       </Container>
@@ -88,15 +80,9 @@ function AppAbout() {
       <section id="about" className="about1-block">
         <Container fluid>
           <div className="title-holder">
-            <h2>Our Motto</h2>
-            <div className="subtitle">subtitle</div>
             <br />
-            <h1>
-              "If everyone is moving forward together, then success takes care
-              of itself"
-            </h1>{" "}
-            <br />
-            <div className="subtitle">Henry Ford</div>
+            <h1>"Quote"</h1> <br />
+            <div className="subtitle">Our Motto</div>
           </div>
         </Container>
       </section>

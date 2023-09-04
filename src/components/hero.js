@@ -7,7 +7,7 @@ var heroData = [
   },
   {
     id: 2,
-    image: require("../assets/images/hero2.jpg"),
+    image: require("../assets/images/hero2.png"),
     title: "We Bring You The Best",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!",
@@ -23,7 +23,7 @@ var heroData = [
 
 function AppHero() {
   return (
-    <section id="home" className="hero-block">
+    <section id="hero" className="hero-block">
       <Carousel>
         {heroData.map((hero) => {
           return (

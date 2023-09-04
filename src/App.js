@@ -2,35 +2,22 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-import AppHeader from "./components/header";
-import AppHero from "./components/hero";
+import AppLayout from "./components/home";
 import AppAbout from "./components/about";
 import AppServices from "./components/services";
 import AppProjects from "./components/projects";
-import AppTeams from "./components/teams";
-import AppTestimonials from "./components/testimonials";
-import AppContact from "./components/contact";
-import AppFooter from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header id="header">
-        <AppHeader />
-      </header>
-      <main>
-        <AppHero />
-        <AppAbout />
-        <AppServices />
-        <AppProjects />
-        <AppTestimonials />
-        <AppTeams />
-        <AppContact />
-      </main>
-      <footer id="footer">
-        <AppFooter />
-      </footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />}>
+          <Route path="/about" element={<AppAbout />} />
+          <Route path="/services" element={<AppServices />} />
+          <Route path="/projects" element={<AppProjects />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
