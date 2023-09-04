@@ -578,11 +578,6 @@ ul,
   position: relative;
 }
 
-.contact-block iframe {
-  border: 0;
-  width: 100%;
-  height: 450px;
-}
 
 .contact-block .contact-info {
   padding: 70px 40px 0;
