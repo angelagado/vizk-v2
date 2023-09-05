@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 import img2 from "../assets/images/about2.jpeg";
-import AppLayout from "./home";
 
 function AppAbout() {
   return (

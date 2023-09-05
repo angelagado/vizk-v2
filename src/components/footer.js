@@ -22,24 +22,26 @@ function AppFooter() {
   }
 
   return (
-    <Container fluid>
-      <div className="copyright">&copy; VIZK Inc. All Right Reserved.</div>
-      <div className="socials">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/profile.php?id=100075833574946">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com">
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      {showTopBtn && <div className="go-top" onClick={goTop}></div>}
-    </Container>
+    <section id="footer">
+      <Container fluid>
+        <div className="copyright">&copy; VIZK Inc. All Right Reserved.</div>
+        <div className="socials">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100075833574946">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        {showTopBtn && <div className="go-top" onClick={goTop}></div>}
+      </Container>
+    </section>
   );
 }
 

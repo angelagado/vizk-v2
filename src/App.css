@@ -121,6 +121,7 @@ ul,
   display: table;
   height: 100%;
   width: 100%;
+  margin-left: 10px;
 }
 
 .socials ul {
@@ -440,12 +441,16 @@ ul,
 
 /* teams */
 
+.teams-block {
+  margin-top: 50px;
+}
+
 .teams-block div[class*="col"] {
   margin: 0 0 50px;
 }
 
 .teams-block .row:last-child {
-  margin: 0 -15px;
+  margin: 0 -10px;
 }
 
 .teams-block [class*="col-"]:hover .overlay {

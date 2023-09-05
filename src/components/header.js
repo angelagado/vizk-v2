@@ -10,7 +10,7 @@ function AppHeader() {
     <div>
       <Navbar id="header" bg="dark" expand="md">
         <Container>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand>
             <img
               src={icon}
               width="30"
