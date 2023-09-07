@@ -28,9 +28,7 @@ function AppHeader() {
               <Link to="/about">About</Link>
               <Link to="/services">Services</Link>
               <Link to="/projects">Projects</Link>
-              <Link to="/testimonials">Testimonials</Link>
               <Link to="/teams">Team</Link>
-              <Link to="/contact">Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
