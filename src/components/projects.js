@@ -2,9 +2,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import Carousel from "react-bootstrap/Carousel";
+
 import AppHeader from "./header";
 import AppContact from "./contact";
 import AppFooter from "./footer";
+
+import img1 from "../assets/images/projects1.jpg";
 
 const projectsData = [
   {
@@ -76,13 +80,45 @@ function AppProjects() {
   return (
     <div>
       <AppHeader />
-
+      <div className="projects-hero">
+        <Carousel>
+          <Carousel.Item>
+            <img src={img1} />
+            <Carousel.Caption>
+              <h1>Lorem ipsum</h1> <br />
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={img1} />
+            <Carousel.Caption>
+              <h1>Dolor sit amet</h1> <br />
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
       <section id="projects" className="block projects-block">
         <Container fluid>
-          <div className="title-holder">
-            <h2>Our projects</h2>
-            <div className="subtitle">our awesome projects</div>
-          </div>
+          <Row>
+            <Col sm={6}>
+              <p style={{ textAlign: "left" }}>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit dicta veritatis sint quidem asperiores magni eaque
+                praesentium temporibus, magnam, eveniet consequatur possimus
+                nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!
+              </p>
+            </Col>
+            <Col sm={6}>
+              <h1 style={{ textAlign: "end" }}>
+                Lorem <span>ipsum dolor</span> sit amet consectetur{" "}
+                <span>adipisicing</span> elit
+              </h1>
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid>
+          <br /> <br />
           <Row className="portfoliolist">
             {projectsData.map((projects) => {
               return (

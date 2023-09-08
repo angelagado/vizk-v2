@@ -2,14 +2,16 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
+import Card from "react-bootstrap/Card";
 
 import AppHeader from "./header";
-
-import img1 from "../assets/images/services1.jpg";
 import AppContact from "./contact";
 import AppFooter from "./footer";
 
-const servicesData = [
+import img1 from "../assets/images/services1.jpg";
+import img2 from "../assets/images/services2.jpeg";
+
+/*const servicesData = [
   {
     id: 1,
     icon: "fas fa-clone",
@@ -41,7 +43,7 @@ const servicesData = [
   {
     id: 5,
     icon: "fas fa-trophy",
-    title: "Brower Compatibility",
+    title: "Website Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.",
   },
@@ -52,7 +54,7 @@ const servicesData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.",
   },
-];
+];*/
 
 function AppServices() {
   return (
@@ -79,6 +81,169 @@ function AppServices() {
 
       <section id="services" className="block services-block">
         <Container fluid>
+          <Row>
+            <Col sm={6}>
+              <h1 style={{ textAlign: "left" }}>
+                Lorem <span>ipsum dolor</span> sit amet consectetur{" "}
+                <span>adipisicing</span> elit
+              </h1>
+            </Col>
+            <Col sm={6}>
+              <p style={{ textAlign: "end" }}>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Reprehenderit dicta veritatis sint quidem asperiores magni eaque
+                praesentium temporibus, magnam, eveniet consequatur possimus
+                nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!
+              </p>
+            </Col>
+          </Row>
+        </Container>
+        <br /> <br />
+        <Container fluid>
+          <Row>
+            <Card style={{ width: "48%", marginLeft: "0.1%" }}>
+              <Card.Img
+                variant="top"
+                src={img2}
+                style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "24px" }}>
+                  Website Development
+                </Card.Title>
+                <br />
+                <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque praesentium temporibus, magnam, eveniet consequatur
+                  possimus nihil? Nemo deserunt repudiandae soluta neque
+                  doloribus, quo!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "48%", marginLeft: "3%" }}>
+              <Card.Img
+                variant="top"
+                src={img2}
+                style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "24px" }}>
+                  Lorem ipsum dolor sit amet
+                </Card.Title>
+                <br />
+                <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque praesentium temporibus, magnam, eveniet consequatur
+                  possimus nihil? Nemo deserunt repudiandae soluta neque
+                  doloribus, quo!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Row>
+        </Container>
+        <br />
+        <Container fluid>
+          <Row>
+            <Card style={{ width: "48%", marginLeft: "0.1%" }}>
+              <Card.Img
+                variant="top"
+                src={img2}
+                style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "24px" }}>
+                  Lorem ipsum dolor sit amet
+                </Card.Title>
+                <br />
+                <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque praesentium temporibus, magnam, eveniet consequatur
+                  possimus nihil? Nemo deserunt repudiandae soluta neque
+                  doloribus, quo!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "48%", marginLeft: "3%" }}>
+              <Card.Img
+                variant="top"
+                src={img2}
+                style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "24px" }}>
+                  Lorem ipsum dolor sit amet
+                </Card.Title>
+                <br />
+                <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque praesentium temporibus, magnam, eveniet consequatur
+                  possimus nihil? Nemo deserunt repudiandae soluta neque
+                  doloribus, quo!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Row>
+        </Container>
+        <br />
+        <Container fluid>
+          <Row>
+            <Card style={{ width: "48%", marginLeft: "0.1%" }}>
+              <Card.Img
+                variant="top"
+                src={img2}
+                style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "24px" }}>
+                  Lorem ipsum dolor sit amet
+                </Card.Title>{" "}
+                <br />
+                <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque praesentium temporibus, magnam, eveniet consequatur
+                  possimus nihil? Nemo deserunt repudiandae soluta neque
+                  doloribus, quo!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "48%", marginLeft: "3%" }}>
+              <Card.Img
+                variant="top"
+                src={img2}
+                style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "24px" }}>
+                  Lorem ipsum dolor sit amet
+                </Card.Title>
+                <br />
+                <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque praesentium temporibus, magnam, eveniet consequatur
+                  possimus nihil? Nemo deserunt repudiandae soluta neque
+                  doloribus, quo!
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Row>
+        </Container>
+      </section>
+      <AppContact />
+      <AppFooter />
+    </div>
+  );
+}
+
+export default AppServices;
+
+/* <section id="services" className="block services-block">
+        <Container fluid>
           <div className="title-holder">
             <h2>Our services</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -97,11 +262,4 @@ function AppServices() {
             })}
           </Row>
         </Container>
-      </section>
-      <AppContact />
-      <AppFooter />
-    </div>
-  );
-}
-
-export default AppServices;
+      </section> */

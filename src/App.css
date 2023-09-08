@@ -411,8 +411,34 @@ ul,
 
 /* projects */
 
-.projects-block {
-  margin-top: 50px;
+.projects-hero {
+  margin-top: 70px;
+}
+
+.projects-hero .carousel-item:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.projects-hero .carousel-item img {
+  max-width: 100%;
+}
+
+.projects-hero .carousel-caption {
+  left: 25%;
+  right: 25%;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  bottom: 50%;
+}
+
+.projects-hero p {
+  margin: 0 0 30px;
 }
 
 .projects-block .portfoliolist>div {
@@ -475,8 +501,34 @@ ul,
 
 /* teams */
 
-.teams-block {
-  margin-top: 50px;
+.teams-hero {
+  margin-top: 70px;
+}
+
+.teams-hero .carousel-item:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.teams-hero .carousel-item img {
+  max-width: 100%;
+}
+
+.teams-hero .carousel-caption {
+  left: 25%;
+  right: 25%;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  bottom: 50%;
+}
+
+.teams-hero p {
+  margin: 0 0 30px;
 }
 
 .teams-block div[class*="col"] {

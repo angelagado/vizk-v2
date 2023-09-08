@@ -107,9 +107,7 @@ export default function AppHome() {
         </Container>
       </section>
       <br /> <br />
-      <h1>
-        Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit
-      </h1>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
         dicta veritatis sint quidem asperiores magni eaque

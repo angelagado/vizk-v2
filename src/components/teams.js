@@ -2,9 +2,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
+import Carousel from "react-bootstrap/Carousel";
+
 import AppHeader from "./header";
 import AppContact from "./contact";
 import AppFooter from "./footer";
+
+import img1 from "../assets/images/teams1.jpg";
 
 const devsData = [
   {
@@ -96,14 +100,45 @@ function AppTeams() {
   return (
     <div>
       <AppHeader />
+      <div className="teams-hero">
+        <Carousel>
+          <Carousel.Item>
+            <img src={img1} />
+            <Carousel.Caption>
+              <h1>Lorem ipsum</h1> <br />
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src={img1} />
+            <Carousel.Caption>
+              <h1>Dolor sit amet</h1> <br />
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
       <section id="teams" className="block teams-block">
         <Container fluid>
-          <div className="title-holder">
-            <h2>Our team</h2>
-            <div className="subtitle">some of our experts</div> <br />
-            <br />
-            <div className="subtitle">DEPARTMENT</div>
-          </div>
+          <Row>
+            <Col sm={6}>
+              <h1 style={{ textAlign: "left" }}>
+                OUR <br />
+                <span>DEVELOPERS</span>
+              </h1>
+            </Col>
+            <Col sm={6}>
+              <p style={{ textAlign: "end" }}>
+                Lorem <span>ipsum dolor</span> sit amet
+                <span> consectetur adipisicing </span>
+                elit. Reprehenderit dicta veritatis sint quidem asperiores magni
+                eaque praesentium temporibus, magnam, eveniet consequatur
+                possimus.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid>
           <Row>
             {devsData.map((devs) => {
               return (
@@ -137,10 +172,27 @@ function AppTeams() {
             })}
           </Row>
         </Container>
+        <br />
         <Container fluid>
-          <div className="title-holder">
-            <div className="subtitle">DEPARTMENT</div>
-          </div>
+          <Row>
+            <Col sm={6}>
+              <h1 style={{ textAlign: "left" }}>
+                OUR <br />
+                <span>ACCOUNTANTS</span>
+              </h1>
+            </Col>
+            <Col sm={6}>
+              <p style={{ textAlign: "end" }}>
+                Lorem <span>ipsum dolor</span> sit amet
+                <span> consectetur adipisicing </span>
+                elit. Reprehenderit dicta veritatis sint quidem asperiores magni
+                eaque praesentium temporibus, magnam, eveniet consequatur
+                possimus.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid>
           <Row>
             {financeData.map((finance) => {
               return (
