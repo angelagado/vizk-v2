@@ -8,6 +8,7 @@ import AppServices from "./components/services";
 import AppProjects from "./components/projects";
 import AppTeams from "./components/teams";
 import AppContact from "./components/contact";
+import NoPage from "./components/nopage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/projects" element={<AppProjects />} />
         <Route path="/teams" element={<AppTeams />} />
         <Route path="/contact" element={<AppContact />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   );

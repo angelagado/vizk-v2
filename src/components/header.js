@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 import icon from "../assets/images/icon.png";
 
@@ -24,11 +24,11 @@ function AppHeader() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/">Home</Link>
-              <Link to="/about">About</Link>
-              <Link to="/services">Services</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/teams">Team</Link>
+              <NavLink to="/">Home</NavLink>
+              <NavLink to="/about">About</NavLink>
+              <NavLink to="/services">Services</NavLink>
+              <NavLink to="/projects">Projects</NavLink>
+              <NavLink to="/teams">Team</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
