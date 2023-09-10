@@ -60,7 +60,7 @@ export default function AppHome() {
               />
               <Card.Body>
                 <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
-                <Card.Text style={{ textAlign: "justify" }}>
+                <Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Reprehenderit dicta veritatis sint quidem asperiores magni
                   eaque praesentium temporibus, magnam, eveniet consequatur
@@ -77,7 +77,7 @@ export default function AppHome() {
               />
               <Card.Body>
                 <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
-                <Card.Text style={{ textAlign: "justify" }}>
+                <Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Reprehenderit dicta veritatis sint quidem asperiores magni
                   eaque praesentium temporibus, magnam, eveniet consequatur
@@ -94,7 +94,7 @@ export default function AppHome() {
               />
               <Card.Body>
                 <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
-                <Card.Text style={{ textAlign: "justify" }}>
+                <Card.Text>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Reprehenderit dicta veritatis sint quidem asperiores magni
                   eaque praesentium temporibus, magnam, eveniet consequatur

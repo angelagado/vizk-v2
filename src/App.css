@@ -757,23 +757,50 @@ ul,
 
 @media only screen and (max-width: 1023px) {
   body {
-    font-size: 15px;
-    line-height: 24px;
+    line-height: 20px;
   }
 
   h1 {
-    font-size: 34px;
+    font-size: 35px;
+    margin: 0 0 20px;
+  }
+
+  h3 {
+    font-size: 19px;
     margin: 0 0 15px;
   }
 
-  h2 {
-    font-size: 26px;
-    margin: 0 0 15px;
+  p {
+    font-size: 22px;
+  }
+
+  .hero-block {
+    margin-top: 58px;
+  }
+
+  .about-hero {
+    margin-top: 66px;
+  }
+
+  .services-hero {
+    margin-top: 66px;
+  }
+
+  .projects-hero {
+    margin-top: 66px;
+  }
+
+  .teams-hero {
+    margin-top: 66px;
   }
 
   .hero-block .carousel-caption {
     left: 7%;
     right: 7%;
+  }
+
+  #home .card-text {
+    text-align: center;
   }
 
   .hero-block p {
@@ -785,17 +812,95 @@ ul,
   }
 }
 
-@media only screen and (max-width: 767px) {
-  h2 {
-    font-size: 20px;
+@media only screen and (max-width: 962px) {
+
+  h1 {
+    font-size: 32px;
+    margin: 0 0 18px;
   }
 
   h3 {
+    font-size: 19px;
+    margin: 0 0 15px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+
+  h1 {
+    font-size: 32px;
+    margin: 0 0 18px;
+  }
+
+  h3 {
+    font-size: 19px;
+    margin: 0 0 15px;
+  }
+
+  p {
     font-size: 20px;
   }
 
-  .title-holder {
-    margin: 0 0 20px;
+  .about-block img {
+    margin-top: 45px;
+  }
+
+  .home-block img {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  h1 {
+    font-size: 26px;
+    margin: 0 0 18px;
+  }
+
+  h3 {
+    font-size: 19px;
+    margin: 0 0 15px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .home-block img {
+    margin-top: 6px;
+  }
+
+  .about-block img {
+    margin-top: 56px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+
+  h1 {
+    font-size: 26px;
+    margin: 0 0 18px;
+  }
+
+  h3 {
+    font-size: 19px;
+    margin: 0 0 15px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .home-block img {
+    margin-top: 40px;
+  }
+
+  .about-block img {
+    margin-top: 80px;
   }
 
   .go-top {
@@ -900,5 +1005,29 @@ ul,
   .contact-block .contact-info .fas {
     font-size: 26px;
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  h1 {
+    font-size: 24px;
+    margin: 0 0 12px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .home-block img {
+    margin-top: 85px;
+  }
+
+  .about-block img {
+    margin-top: 85px;
   }
 }
