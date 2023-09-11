@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
+import Fade from "react-reveal/Fade";
 
 var testimonialsData = [
   {
@@ -27,30 +28,34 @@ var testimonialsData = [
 
 function AppTestimonials() {
   return (
-    <section id="testimonials" className="testimonials-block">
-      <Container fluid>
-        <div className="title-holder">
-          <h2>Client testimonials</h2>
-        </div>
-        <Carousel controls={false}>
-          {testimonialsData.map((testimonials) => {
-            return (
-              <Carousel.Item key={testimonials.id}>
-                <blockquote>
-                  <p>{testimonials.description}</p>
-                  <cite>
-                    <span className="name">{testimonials.name}</span>
-                    <span className="designation">
-                      {testimonials.designation}
-                    </span>
-                  </cite>
-                </blockquote>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
-      </Container>
-    </section>
+    <div>
+      <Fade bottom big>
+        <section id="testimonials" className="testimonials-block">
+          <Container fluid>
+            <div className="title-holder">
+              <h2>Client testimonials</h2>
+            </div>
+            <Carousel controls={false}>
+              {testimonialsData.map((testimonials) => {
+                return (
+                  <Carousel.Item key={testimonials.id}>
+                    <blockquote>
+                      <p>{testimonials.description}</p>
+                      <cite>
+                        <span className="name">{testimonials.name}</span>
+                        <span className="designation">
+                          {testimonials.designation}
+                        </span>
+                      </cite>
+                    </blockquote>
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
+          </Container>
+        </section>
+      </Fade>
+    </div>
   );
 }
 

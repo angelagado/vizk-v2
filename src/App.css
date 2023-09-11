@@ -739,6 +739,17 @@ ul,
   color: rgb(33,51,142);
 }
 
+/* home */
+.home-card h1 {
+  color: rgb(33,51,142);
+}
+
+
+.home-card .card {
+  width: 32%;
+  margin-left: 1%;
+}
+
 /* 404 error */
 .error h1 {
   text-align: left;

@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import Fade from "react-reveal/Fade";
 
 var heroData = [
   {
@@ -22,25 +23,27 @@ var heroData = [
 function AppHero() {
   return (
     <div>
-      <section id="hero" className="hero-block">
-        <Carousel>
-          {heroData.map((hero) => {
-            return (
-              <Carousel.Item key={hero.id}>
-                <img
-                  className="d-block w-100"
-                  src={hero.image}
-                  alt={"slide " + hero.id}
-                />
-                <Carousel.Caption>
-                  <h1>{hero.title}</h1> <br /> <br />
-                  <p>{hero.description}</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
-      </section>
+      <Fade left big>
+        <section id="hero" className="hero-block">
+          <Carousel>
+            {heroData.map((hero) => {
+              return (
+                <Carousel.Item key={hero.id}>
+                  <img
+                    className="d-block w-100"
+                    src={hero.image}
+                    alt={"slide " + hero.id}
+                  />
+                  <Carousel.Caption>
+                    <h1>{hero.title}</h1> <br /> <br />
+                    <p>{hero.description}</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
+        </section>
+      </Fade>
     </div>
   );
 }
