@@ -21,7 +21,12 @@ export default function AppHome() {
       <section id="home" className="block home-block">
         <Fade bottom big>
           <Container fluid>
-            <h1>Lorem ipsum dolor sit amet consectetur</h1> <br />
+            <h1 className="home-title">
+              <span>V</span>isual <span>I</span>ntelligence <span>Z</span>ero
+              <span> K</span>ey <br />
+            </h1>
+            <h4>est. October 1, 2021</h4>
+            <br /> <br />
             <br /> <br />
             <Row>
               <Col sm={6}>
@@ -41,7 +46,7 @@ export default function AppHome() {
                 </p>
               </Col>
               <Col sm={6}>
-                <Image src={img1} />
+                <Image src={img1} className="home-img" />
               </Col>
             </Row>
           </Container>
@@ -49,7 +54,7 @@ export default function AppHome() {
         <br /> <br /> <br />
         <Container fluid className="home-card">
           <Fade left big delay={100}>
-            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            <h1>Commitments of the Company</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Reprehenderit dicta veritatis sint quidem asperiores magni eaque
@@ -64,13 +69,14 @@ export default function AppHome() {
                   style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
                 />
                 <Card.Body>
-                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
+                  <Card.Title>Commercial</Card.Title> <br />
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reprehenderit dicta veritatis sint quidem asperiores magni
-                    eaque praesentium temporibus, magnam, eveniet consequatur
-                    possimus nihil? Nemo deserunt repudiandae soluta neque
-                    doloribus, quo!
+                    These are the revenue driven steps in business management
+                    aimed in growing your business. Reprehenderit dicta
+                    veritatis sint quidem asperiores magni eaque praesentium
+                    temporibus, magnam, eveniet consequatur. Reprehenderit dicta
+                    veritatis sint quidem asperiores magni eaque praesentium
+                    temporibus, magnam, eveniet consequatur
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -82,13 +88,14 @@ export default function AppHome() {
                   style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
                 />
                 <Card.Body>
-                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
+                  <Card.Title>Non-Commercial</Card.Title> <br />
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    These are the compliance area of the business aimed in
+                    protecting the brand, the business, and its constitutes.
+                    Reprehenderit dicta veritatis sint quidem asperiores magni
+                    eaque praesentium temporibus, magnam, eveniet consequatur.
                     Reprehenderit dicta veritatis sint quidem asperiores magni
                     eaque praesentium temporibus, magnam, eveniet consequatur
-                    possimus nihil? Nemo deserunt repudiandae soluta neque
-                    doloribus, quo!
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -99,13 +106,15 @@ export default function AppHome() {
                   style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
                 />
                 <Card.Body>
-                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
+                  <Card.Title>Technical</Card.Title> <br />
                   <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reprehenderit dicta veritatis sint quidem asperiores magni
-                    eaque praesentium temporibus, magnam, eveniet consequatur
-                    possimus nihil? Nemo deserunt repudiandae soluta neque
-                    doloribus, quo!
+                    Develop risk driven automation tools that will assist
+                    entrepreneurs in managing and making the right commercial
+                    and non-commercial business decisions. Reprehenderit dicta
+                    veritatis sint quidem asperiores magni eaque praesentium
+                    temporibus, magnam, eveniet consequatur. Reprehenderit dicta
+                    veritatis sint quidem asperiores magni eaque praesentium
+                    temporibus, magnam, eveniet consequatur
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -115,11 +124,12 @@ export default function AppHome() {
       </section>
       <br /> <br />
       <Fade bottom big>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Reprehenderit dicta veritatis sint quidem asperiores magni eaque
-        </p>
+        <h2>
+          We have successfully served over __ clients in the last __ years.
+          <br />
+          Today, we continue to provide our clients with the best services and
+          solutions.
+        </h2>
       </Fade>
       <br />
       <AppTestimonials />

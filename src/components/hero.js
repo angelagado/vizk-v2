@@ -35,8 +35,8 @@ function AppHero() {
                     alt={"slide " + hero.id}
                   />
                   <Carousel.Caption>
-                    <h1>{hero.title}</h1> <br /> <br />
-                    <p>{hero.description}</p>
+                    <h1>{hero.title}</h1>
+                    <h4>{hero.description}</h4>
                   </Carousel.Caption>
                 </Carousel.Item>
               );

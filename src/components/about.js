@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
 import Fade from "react-reveal/Fade";
+import Card from "react-bootstrap/Card";
 
 import AppHeader from "./header";
 import AppFooter from "./footer";
@@ -43,82 +44,163 @@ function AppAbout() {
 
       <section id="about" className="block about-block">
         <Container fluid>
-          <Fade bottom big delay={100}>
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reprehenderit dicta veritatis sint quidem asperiores magni eaque
-              praesentium temporibus, magnam, eveniet consequatur possimus
-              nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!
-            </p>
-          </Fade>
-          <br /> <br />
           <Fade left big>
-            <Row>
+            <Row className="row1">
               <Col sm={6}>
                 <h1 style={{ textAlign: "left" }}>
-                  <span>Lorem</span> ipsum
+                  <span>Who</span> We Are
                 </h1>
                 <p style={{ textAlign: "left" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit dicta veritatis sint quidem asperiores magni
-                  eaque praesentium temporibus, magnam, eveniet consequatur
-                  possimus nihil? Nemo deserunt repudiandae soluta neque
-                  doloribus, quo! Vitae alias ex error distinctio laudantium
-                  recusandae, iure. Vel nisi soluta, minus consectetur
-                  reiciendis laborum, laudantium perspiciatis quos molestias
-                  quam eum. Vitae alias ex error distinctio laudantium
-                  recusandae, iure. Vel nisi soluta, minus consectetur
-                  reiciendis laborum, laudantium perspiciatis quos molestias
-                  quam eum.
+                  We are an <span>entrepreneur's support</span> in helping them
+                  mitigate risks in business management. Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit. Reprehenderit dicta
+                  veritatis sint quidem asperiores magni eaque
+                  <br />
+                  <br /> We offer
+                  <span>
+                    {" "}
+                    technology and human driven solutions and support{" "}
+                  </span>
+                  to entrepreneurs around the world. How well the entrepreneur
+                  understands, manage and address risk, and de-risk every step
+                  of the way, will determine the success of their business. Some
+                  of these risks could be short term, long term, or perpetual.
                 </p>
               </Col>
               <Col sm={6}>
-                <Image src={img2} />
+                <Image src={img2} className="img1" />
               </Col>
             </Row>
           </Fade>
         </Container>
-        <br /> <br />
         <br /> <br />
         <Container fluid>
           <Fade right big delay={100}>
-            <Row>
+            <Row className="row2">
               <Col sm={6}>
-                <Image src={img2} />
+                <Image src={img2} className="img2" />
               </Col>
               <Col sm={6}>
                 <h1 style={{ textAlign: "end" }}>
-                  Lorem <span>ipsum</span>
+                  <span>What</span> We Do
                 </h1>
                 <p style={{ textAlign: "end" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit dicta veritatis sint quidem asperiores magni
-                  eaque praesentium temporibus, magnam, eveniet consequatur
-                  possimus nihil? Nemo deserunt repudiandae soluta neque
-                  doloribus, quo! Vitae alias ex error distinctio laudantium
-                  recusandae, iure. Vel nisi soluta, minus consectetur
-                  reiciendis laborum, laudantium perspiciatis quos molestias
-                  quam eum. Vitae alias ex error distinctio laudantium
-                  recusandae, iure. Vel nisi soluta, minus consectetur
-                  reiciendis laborum, laudantium perspiciatis quos molestias
-                  quam eum.
+                  Managing these risks may sometimes require the development of
+                  automation, Artificial Intelligence (AI), and machine learning
+                  tools, while others will need professional
+                  consultants/advisors, or only have an interim need for extra
+                  hands/support. <br />
+                  <br /> Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit. Reprehenderit dicta veritatis sint quidem asperiores
+                  magni eaque <br /> <br />
+                  <span>VIZK will be your all around ally</span> and our
+                  professionals will assess your needs and compliment the
+                  resources you have to ascertain the most cost-efficient
+                  solution for your business.
                 </p>
               </Col>
             </Row>
           </Fade>
         </Container>
-        <br /> <br /> <br /> <br />
+        <br /> <br /> <br />
         <Fade bottom big delay={100}>
-          <section id="about" className="about1-block">
+          <h1>
+            What <span>We Believe</span> In
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Reprehenderit dicta veritatis sint quidem asperiores magni eaque
+            praesentium temporibus, magnam, eveniet consequatur possimus nihil?
+            Nemo deserunt repudiandae soluta neque doloribus, quo!
+          </p>
+          <br />
+          <div className="about-card">
+            <Fade bottom big>
+              <Card>
+                <Card.Body>
+                  <Card.Title>Core Value</Card.Title> <br />
+                  <Card.Text>
+                    Reprehenderit dicta veritatis sint quidem asperiores magni
+                    eaque praesentium temporibus, magnam, eveniet consequatur.
+                    Reprehenderit dicta veritatis sint quidem asperiores magni
+                    eaque praesentium temporibus, magnam, eveniet consequatur.
+                    Reprehenderit dicta veritatis sint quidem asperiores magni
+                    eaque praesentium temporibus, magnam, eveniet consequatur
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Fade>
+            <br />
             <Container fluid>
-              <div className="title-holder">
-                <br />
-                <h1>"Quote"</h1> <br /> <br />
-                <div className="subtitle">Author</div>
-              </div>
+              <Fade bottom big>
+                <Row>
+                  <Card className="about-card1">
+                    <Card.Body>
+                      <Card.Title>Core Value</Card.Title> <br />
+                      <Card.Text>
+                        Reprehenderit dicta veritatis sint quidem asperiores
+                        magni eaque praesentium temporibus, magnam, eveniet
+                        consequatur. Reprehenderit dicta veritatis sint quidem
+                        asperiores magni eaque praesentium temporibus, magnam,
+                        eveniet consequatur. Reprehenderit dicta veritatis sint
+                        quidem asperiores magni eaque praesentium temporibus,
+                        magnam, eveniet consequatur
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <br />
+                  <Card className="about-card1">
+                    <Card.Body>
+                      <Card.Title>Core Value</Card.Title> <br />
+                      <Card.Text>
+                        Reprehenderit dicta veritatis sint quidem asperiores
+                        magni eaque praesentium temporibus, magnam, eveniet
+                        consequatur. Reprehenderit dicta veritatis sint quidem
+                        asperiores magni eaque praesentium temporibus, magnam,
+                        eveniet consequatur. Reprehenderit dicta veritatis sint
+                        quidem asperiores magni eaque praesentium temporibus,
+                        magnam, eveniet consequatur
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Row>
+              </Fade>
+              <br />
+              <Fade bottom big>
+                <Row>
+                  <Card className="about-card1">
+                    <Card.Body>
+                      <Card.Title>Core Value</Card.Title> <br />
+                      <Card.Text>
+                        Reprehenderit dicta veritatis sint quidem asperiores
+                        magni eaque praesentium temporibus, magnam, eveniet
+                        consequatur. Reprehenderit dicta veritatis sint quidem
+                        asperiores magni eaque praesentium temporibus, magnam,
+                        eveniet consequatur. Reprehenderit dicta veritatis sint
+                        quidem asperiores magni eaque praesentium temporibus,
+                        magnam, eveniet consequatur
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                  <br />
+                  <Card className="about-card1">
+                    <Card.Body>
+                      <Card.Title>Core Value</Card.Title> <br />
+                      <Card.Text>
+                        Reprehenderit dicta veritatis sint quidem asperiores
+                        magni eaque praesentium temporibus, magnam, eveniet
+                        consequatur. Reprehenderit dicta veritatis sint quidem
+                        asperiores magni eaque praesentium temporibus, magnam,
+                        eveniet consequatur. Reprehenderit dicta veritatis sint
+                        quidem asperiores magni eaque praesentium temporibus,
+                        magnam, eveniet consequatur
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Row>
+              </Fade>
             </Container>
-          </section>
+          </div>
         </Fade>
       </section>
       <AppContact />

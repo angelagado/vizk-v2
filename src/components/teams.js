@@ -125,6 +125,7 @@ function AppTeams() {
           </Carousel>
         </div>
       </Fade>
+
       <section id="teams" className="block teams-block">
         <Fade right big delay={200}>
           <Container fluid>
@@ -241,6 +242,24 @@ function AppTeams() {
             </Row>
           </Container>
         </Fade>
+        <br /> <br /> <br />
+        <h1> Lorem ipsum dolor sit amet</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit dicta veritatis sint quidem asperiores magni eaque
+          praesentium temporibus, magnam, eveniet consequatur possimus nihil?
+          Nemo deserunt repudiandae soluta neque doloribus, quo!
+        </p>
+        <br />
+        <section id="teams" className="block teams-block1">
+          <Container fluid>
+            <div className="title-holder">
+              <br />
+              <h1>"Quote"</h1> <br /> <br />
+              <div className="subtitle">Author</div>
+            </div>
+          </Container>
+        </section>
       </section>
       <AppContact />
       <AppFooter />
@@ -249,3 +268,13 @@ function AppTeams() {
 }
 
 export default AppTeams;
+
+/* <section id="about" className="about1-block">
+          <Container fluid>
+            <div className="title-holder">
+              <br />
+              <h1>"Quote"</h1> <br /> <br />
+              <div className="subtitle">Author</div>
+            </div>
+          </Container>
+        </section> */

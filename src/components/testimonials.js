@@ -29,32 +29,28 @@ var testimonialsData = [
 function AppTestimonials() {
   return (
     <div>
-      <Fade bottom big>
-        <section id="testimonials" className="testimonials-block">
-          <Container fluid>
-            <div className="title-holder">
-              <h2>Client testimonials</h2>
-            </div>
-            <Carousel controls={false}>
-              {testimonialsData.map((testimonials) => {
-                return (
-                  <Carousel.Item key={testimonials.id}>
-                    <blockquote>
-                      <p>{testimonials.description}</p>
-                      <cite>
-                        <span className="name">{testimonials.name}</span>
-                        <span className="designation">
-                          {testimonials.designation}
-                        </span>
-                      </cite>
-                    </blockquote>
-                  </Carousel.Item>
-                );
-              })}
-            </Carousel>
-          </Container>
-        </section>
-      </Fade>
+      <section id="testimonials" className="testimonials-block">
+        <Container fluid>
+          <br />
+          <Carousel controls={false}>
+            {testimonialsData.map((testimonials) => {
+              return (
+                <Carousel.Item key={testimonials.id}>
+                  <blockquote>
+                    <p>{testimonials.description}</p>
+                    <cite>
+                      <span className="name">{testimonials.name}</span>
+                      <span className="designation">
+                        {testimonials.designation}
+                      </span>
+                    </cite>
+                  </blockquote>
+                </Carousel.Item>
+              );
+            })}
+          </Carousel>
+        </Container>
+      </section>
     </div>
   );
 }

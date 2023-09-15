@@ -22,19 +22,18 @@ function AppServices() {
             <Carousel.Item>
               <img src={img1} />
               <Carousel.Caption>
-                <h1>Lorem ipsum</h1> <br />
+                <h1>OUR SERVICES</h1>
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  VIZK offers a variety of services specifically tailored for
+                  the clients' needs and wants.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img src={img1} />
               <Carousel.Caption>
-                <h1>Dolor sit amet</h1> <br />
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                <h1>OUR SERVICES</h1>
+                <p>Here at VIZK, a successful end output is guaranteed.</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -45,21 +44,50 @@ function AppServices() {
         <Container fluid>
           <Fade bottom big delay={150}>
             <Row>
-              <Col sm={6}>
-                <h1 style={{ textAlign: "left" }}>
-                  Lorem <span>ipsum dolor</span> sit amet consectetur{" "}
-                  <span>adipisicing</span> elit
-                </h1>
-              </Col>
-              <Col sm={6}>
-                <p style={{ textAlign: "end" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit dicta veritatis sint quidem asperiores magni
-                  eaque praesentium temporibus, magnam, eveniet consequatur
-                  possimus nihil? Nemo deserunt repudiandae soluta neque
-                  doloribus, quo!
-                </p>
-              </Col>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={img2}
+                  style={{
+                    width: "100%",
+                    marginLeft: "0.2%",
+                    marginTop: "3%",
+                  }}
+                />
+                <Card.Body>
+                  <Card.Title>Website Development</Card.Title>
+                  <br />
+                  <Card.Text>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reprehenderit dicta veritatis sint quidem asperiores magni
+                    eaque praesentium temporibus, magnam, eveniet consequatur
+                    possimus nihil? Nemo deserunt repudiandae soluta neque
+                    doloribus, quo!
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              <Card>
+                <Card.Img
+                  variant="top"
+                  src={img2}
+                  style={{
+                    width: "100%",
+                    marginLeft: "0.2%",
+                    marginTop: "3%",
+                  }}
+                />
+                <Card.Body>
+                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
+                  <br />
+                  <Card.Text>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Reprehenderit dicta veritatis sint quidem asperiores magni
+                    eaque praesentium temporibus, magnam, eveniet consequatur
+                    possimus nihil? Nemo deserunt repudiandae soluta neque
+                    doloribus, quo!
+                  </Card.Text>
+                </Card.Body>
+              </Card>
             </Row>
           </Fade>
         </Container>
@@ -67,18 +95,20 @@ function AppServices() {
         <Container fluid>
           <Fade bottom big delay={150}>
             <Row>
-              <Card style={{ width: "48%", marginLeft: "0.1%" }}>
+              <Card>
                 <Card.Img
                   variant="top"
                   src={img2}
-                  style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+                  style={{
+                    width: "100%",
+                    marginLeft: "0.2%",
+                    marginTop: "3%",
+                  }}
                 />
                 <Card.Body>
-                  <Card.Title style={{ fontSize: "24px" }}>
-                    Website Development
-                  </Card.Title>
+                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
                   <br />
-                  <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  <Card.Text>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reprehenderit dicta veritatis sint quidem asperiores magni
                     eaque praesentium temporibus, magnam, eveniet consequatur
@@ -87,65 +117,20 @@ function AppServices() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "48%", marginLeft: "3%" }}>
+              <Card>
                 <Card.Img
                   variant="top"
                   src={img2}
-                  style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+                  style={{
+                    width: "100%",
+                    marginLeft: "0.2%",
+                    marginTop: "3%",
+                  }}
                 />
                 <Card.Body>
-                  <Card.Title style={{ fontSize: "24px" }}>
-                    Lorem ipsum dolor sit amet
-                  </Card.Title>
+                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
                   <br />
-                  <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reprehenderit dicta veritatis sint quidem asperiores magni
-                    eaque praesentium temporibus, magnam, eveniet consequatur
-                    possimus nihil? Nemo deserunt repudiandae soluta neque
-                    doloribus, quo!
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Row>
-          </Fade>
-        </Container>
-        <br />
-        <Container fluid>
-          <Fade bottom big delay={150}>
-            <Row>
-              <Card style={{ width: "48%", marginLeft: "0.1%" }}>
-                <Card.Img
-                  variant="top"
-                  src={img2}
-                  style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
-                />
-                <Card.Body>
-                  <Card.Title style={{ fontSize: "24px" }}>
-                    Lorem ipsum dolor sit amet
-                  </Card.Title>
-                  <br />
-                  <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reprehenderit dicta veritatis sint quidem asperiores magni
-                    eaque praesentium temporibus, magnam, eveniet consequatur
-                    possimus nihil? Nemo deserunt repudiandae soluta neque
-                    doloribus, quo!
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-              <Card style={{ width: "48%", marginLeft: "3%" }}>
-                <Card.Img
-                  variant="top"
-                  src={img2}
-                  style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
-                />
-                <Card.Body>
-                  <Card.Title style={{ fontSize: "24px" }}>
-                    Lorem ipsum dolor sit amet
-                  </Card.Title>
-                  <br />
-                  <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  <Card.Text>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reprehenderit dicta veritatis sint quidem asperiores magni
                     eaque praesentium temporibus, magnam, eveniet consequatur
@@ -157,22 +142,23 @@ function AppServices() {
             </Row>
           </Fade>
         </Container>
-        <br />
+        <br /> <br />
         <Container fluid>
           <Fade bottom big delay={150}>
             <Row>
-              <Card style={{ width: "48%", marginLeft: "0.1%" }}>
+              <Card>
                 <Card.Img
                   variant="top"
                   src={img2}
-                  style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+                  style={{
+                    width: "100%",
+                    marginLeft: "0.2%",
+                    marginTop: "3%",
+                  }}
                 />
                 <Card.Body>
-                  <Card.Title style={{ fontSize: "24px" }}>
-                    Lorem ipsum dolor sit amet
-                  </Card.Title>{" "}
-                  <br />
-                  <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title> <br />
+                  <Card.Text>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reprehenderit dicta veritatis sint quidem asperiores magni
                     eaque praesentium temporibus, magnam, eveniet consequatur
@@ -181,18 +167,20 @@ function AppServices() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card style={{ width: "48%", marginLeft: "3%" }}>
+              <Card>
                 <Card.Img
                   variant="top"
                   src={img2}
-                  style={{ width: "90%", marginLeft: "5%", marginTop: "5%" }}
+                  style={{
+                    width: "100%",
+                    marginLeft: "0.2%",
+                    marginTop: "3%",
+                  }}
                 />
                 <Card.Body>
-                  <Card.Title style={{ fontSize: "24px" }}>
-                    Lorem ipsum dolor sit amet
-                  </Card.Title>
+                  <Card.Title>Lorem ipsum dolor sit amet</Card.Title>
                   <br />
-                  <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
+                  <Card.Text>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Reprehenderit dicta veritatis sint quidem asperiores magni
                     eaque praesentium temporibus, magnam, eveniet consequatur
