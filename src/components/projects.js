@@ -107,34 +107,13 @@ function AppProjects() {
       </Fade>
       <section id="projects" className="block projects-block">
         <Container fluid>
-          <Fade bottom big delay={100}>
-            <Row>
-              <Col sm={6}>
-                <p style={{ textAlign: "left" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit dicta veritatis sint quidem asperiores magni
-                  eaque praesentium temporibus, magnam, eveniet consequatur
-                  possimus nihil? Nemo deserunt repudiandae soluta neque
-                  doloribus, quo!
-                </p>
-              </Col>
-              <Col sm={6}>
-                <h1 style={{ textAlign: "end" }}>
-                  Lorem <span>ipsum dolor</span> sit amet consectetur{" "}
-                  <span>adipisicing</span> elit
-                </h1>
-              </Col>
-            </Row>
-          </Fade>
-        </Container>
-
-        <Container fluid>
           <br /> <br />
           <Row className="portfoliolist">
             {projectsData.map((projects) => {
               return (
                 <Col sm={4} key={projects.id}>
                   <Fade left big delay={300}>
+                    <br />
                     <div className="portfolio-wrapper">
                       <a href={projects.link}>
                         <Image src={projects.image} />
