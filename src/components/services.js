@@ -24,8 +24,8 @@ function AppServices() {
               <Carousel.Caption>
                 <h1>OUR SERVICES</h1>
                 <p>
-                  VIZK offers a variety of services specifically tailored for
-                  the clients' needs and wants.
+                  We offer a variety of services specifically tailored for the
+                  clients' needs and wants.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -33,7 +33,7 @@ function AppServices() {
               <img src={img1} />
               <Carousel.Caption>
                 <h1>OUR SERVICES</h1>
-                <p>Here at VIZK, a successful end output is guaranteed.</p>
+                <p>Here at VIZK, a successful output is guaranteed.</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

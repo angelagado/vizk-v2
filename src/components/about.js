@@ -48,23 +48,18 @@ function AppAbout() {
             <Row className="row1">
               <Col sm={6}>
                 <h1 style={{ textAlign: "left" }}>
-                  <span>Who</span> We Are
+                  <span>What</span> We Do
                 </h1>
                 <p style={{ textAlign: "left" }}>
-                  We are an <span>entrepreneur's support</span> in helping them
-                  mitigate risks in business management. Lorem ipsum dolor sit
-                  amet, consectetur adipisicing elit. Reprehenderit dicta
-                  veritatis sint quidem asperiores magni eaque
-                  <br />
-                  <br /> We offer
-                  <span>
-                    {" "}
-                    technology and human driven solutions and support{" "}
-                  </span>
-                  to entrepreneurs around the world. How well the entrepreneur
-                  understands, manage and address risk, and de-risk every step
-                  of the way, will determine the success of their business. Some
-                  of these risks could be short term, long term, or perpetual.
+                  Managing risks may sometimes require the development of
+                  automation, Artificial Intelligence (AI), and machine learning
+                  tools, while others will need professional
+                  consultants/advisors, or only have an interim need for extra
+                  hands/support. <br /> <br />
+                  <span>VIZK will be your all around ally</span> and our
+                  professionals will assess your needs and compliment the
+                  resources you have to ascertain the most cost-efficient
+                  solution for your business.
                 </p>
               </Col>
               <Col sm={6}>
@@ -76,27 +71,27 @@ function AppAbout() {
         <br /> <br />
         <Container fluid>
           <Fade right big delay={100}>
+            <br />
             <Row className="row2">
               <Col sm={6}>
                 <Image src={img2} className="img2" />
               </Col>
               <Col sm={6}>
                 <h1 style={{ textAlign: "end" }}>
-                  <span>What</span> We Do
+                  <span>Why</span> Work With Us?
                 </h1>
                 <p style={{ textAlign: "end" }}>
-                  Managing these risks may sometimes require the development of
-                  automation, Artificial Intelligence (AI), and machine learning
-                  tools, while others will need professional
-                  consultants/advisors, or only have an interim need for extra
-                  hands/support. <br />
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit. Reprehenderit dicta veritatis sint quidem asperiores
+                  magni eaque. <br />
                   <br /> Lorem ipsum dolor sit amet, consectetur adipisicing
                   elit. Reprehenderit dicta veritatis sint quidem asperiores
                   magni eaque <br /> <br />
-                  <span>VIZK will be your all around ally</span> and our
-                  professionals will assess your needs and compliment the
-                  resources you have to ascertain the most cost-efficient
-                  solution for your business.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Reprehenderit dicta veritatis sint quidem asperiores magni
+                  eaque.
                 </p>
               </Col>
             </Row>

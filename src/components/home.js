@@ -31,18 +31,23 @@ export default function AppHome() {
             <Row>
               <Col sm={6}>
                 <h1 style={{ textAlign: "left" }}>
-                  Lorem <span>ipsum dolor</span> sit amet
+                  <span>Who</span> We Are
                 </h1>
-
                 <p style={{ textAlign: "left" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Reprehenderit dicta veritatis sint quidem asperiores magni
-                  eaque praesentium temporibus, magnam, eveniet consequatur
-                  possimus nihil? Nemo deserunt repudiandae soluta neque
-                  doloribus, quo! Vitae alias ex error distinctio laudantium
-                  recusandae, iure. Vel nisi soluta, minus consectetur
-                  reiciendis laborum, laudantium perspiciatis quos molestias
-                  quam eum.
+                  We are an <span>entrepreneur's support</span> in helping them
+                  mitigate risks in business management. Lorem ipsum dolor sit
+                  amet, consectetur adipisicing elit. Reprehenderit dicta
+                  veritatis sint quidem asperiores magni eaque
+                  <br />
+                  <br /> We offer
+                  <span>
+                    {" "}
+                    technology and human driven solutions and support{" "}
+                  </span>
+                  to entrepreneurs around the world. How well the entrepreneur
+                  understands, manage and address risk, and de-risk every step
+                  of the way, will determine the success of their business. Some
+                  of these risks could be short term, long term, or perpetual.
                 </p>
               </Col>
               <Col sm={6}>

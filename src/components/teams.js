@@ -107,16 +107,14 @@ function AppTeams() {
             <Carousel.Item>
               <img src={img1} />
               <Carousel.Caption>
-                <h1>Lorem ipsum</h1> <br />
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+                <h1>OUR TEAM</h1> <br />
+                <p>These are the people behind VIZK's success.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img src={img1} />
               <Carousel.Caption>
-                <h1>Dolor sit amet</h1> <br />
+                <h1>OUR TEAM</h1> <br />
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>

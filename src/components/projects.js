@@ -87,16 +87,17 @@ function AppProjects() {
             <Carousel.Item>
               <img src={img1} />
               <Carousel.Caption>
-                <h1>Lorem ipsum</h1> <br />
+                <h1>OUR PROJECTS</h1> <br />
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Here are some of the projects that we have completed over the
+                  years.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img src={img1} />
               <Carousel.Caption>
-                <h1>Dolor sit amet</h1> <br />
+                <h1>OUR PROJECTS</h1> <br />
                 <p>
                   Nulla vitae elit libero, a pharetra augue mollis interdum.
                 </p>
